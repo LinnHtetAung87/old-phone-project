@@ -20,14 +20,11 @@ The application adheres to the following rules:
 * Processes input until a '#' character is encountered.
 
 Project Structure
-OldPhonePad/
-├── OldPhonePad.sln
-├── OldPhonePad/
-│   ├── Program.cs
-│   └── OldPhonePad.csproj
-├── OldPhonePad.Tests/
-│   ├── TestCases.cs
-│   └── OldPhonePad.Tests.csproj
+OldPhoneProject/
+├── bin
+├── obj
+├── OldPhoneProject.csproj
+│── Program.cs
 └── README.md
 
 ## How to Build and Run
@@ -53,4 +50,4 @@ OldPhonePad/
 
 To run the main console application:
 ```bash
-dotnet run --project old-phone-project/old-phone-project.csproj
+dotnet run
