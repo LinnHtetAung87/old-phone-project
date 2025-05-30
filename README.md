@@ -21,11 +21,13 @@ The application adheres to the following rules:
 
 Project Structure
 OldPhoneProject/
-├── bin
-├── obj
-├── OldPhoneProject.csproj
-│── Program.cs
-└── README.md
+├── OldPhonePadSolution.sln
+├── OldPhonePad/
+│   ├── OldPhonePad.csproj
+│   └── Program.cs
+└── OldPhonePad.Tests/
+    ├── OldPhonePad.Tests.csproj
+    └── TestCases.cs
 
 ## How to Build and Run
 
@@ -50,4 +52,7 @@ OldPhoneProject/
 
 To run the main console application:
 ```bash
-dotnet run
+dotnet test OldPhonePad.Tests/OldPhonePad.Tests.csproj
+
+```bash
+dotnet run --project OldPhonePad/OldPhonePad.csproj
