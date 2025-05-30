@@ -1,0 +1,15 @@
+C:\laragon\www\OldPhoneProject\OldPhonePad\bin\Debug\net8.0\OldPhonePad.exe
+C:\laragon\www\OldPhoneProject\OldPhonePad\bin\Debug\net8.0\OldPhonePad.deps.json
+C:\laragon\www\OldPhoneProject\OldPhonePad\bin\Debug\net8.0\OldPhonePad.runtimeconfig.json
+C:\laragon\www\OldPhoneProject\OldPhonePad\bin\Debug\net8.0\OldPhonePad.dll
+C:\laragon\www\OldPhoneProject\OldPhonePad\bin\Debug\net8.0\OldPhonePad.pdb
+C:\laragon\www\OldPhoneProject\OldPhonePad\obj\Debug\net8.0\OldPhonePad.GeneratedMSBuildEditorConfig.editorconfig
+C:\laragon\www\OldPhoneProject\OldPhonePad\obj\Debug\net8.0\OldPhonePad.AssemblyInfoInputs.cache
+C:\laragon\www\OldPhoneProject\OldPhonePad\obj\Debug\net8.0\OldPhonePad.AssemblyInfo.cs
+C:\laragon\www\OldPhoneProject\OldPhonePad\obj\Debug\net8.0\OldPhonePad.csproj.CoreCompileInputs.cache
+C:\laragon\www\OldPhoneProject\OldPhonePad\obj\Debug\net8.0\OldPhonePad.sourcelink.json
+C:\laragon\www\OldPhoneProject\OldPhonePad\obj\Debug\net8.0\OldPhonePad.dll
+C:\laragon\www\OldPhoneProject\OldPhonePad\obj\Debug\net8.0\refint\OldPhonePad.dll
+C:\laragon\www\OldPhoneProject\OldPhonePad\obj\Debug\net8.0\OldPhonePad.pdb
+C:\laragon\www\OldPhoneProject\OldPhonePad\obj\Debug\net8.0\OldPhonePad.genruntimeconfig.cache
+C:\laragon\www\OldPhoneProject\OldPhonePad\obj\Debug\net8.0\ref\OldPhonePad.dll

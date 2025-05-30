@@ -12,3 +12,4 @@ C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\refint\OldPhoneProject.dll
 C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\OldPhoneProject.pdb
 C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\OldPhoneProject.genruntimeconfig.cache
 C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\ref\OldPhoneProject.dll
+C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\OldPhoneProject.sourcelink.json
