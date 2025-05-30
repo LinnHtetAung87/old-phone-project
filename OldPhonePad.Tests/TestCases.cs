@@ -1,6 +1,5 @@
 using NUnit.Framework;
 using OldPhonePad;
-// using NUnit.Framework.Constraints; // Optional, only if you want to use Assert.That(..., Is.EqualTo(...))
 
 namespace OldPhonePad.Tests
 {
@@ -20,7 +19,7 @@ namespace OldPhonePad.Tests
         public void OldPhonePad_MultipleSpaces_HandlesCorrectly()
         {
             string input = "444 44 444#";
-            string expectedOutput = "IHI"; // Corrected from "HI"
+            string expectedOutput = "IHI";
             string actualOutput = Program.OldPhonePad(input);
             Assert.AreEqual(expectedOutput, actualOutput);
         }
@@ -29,7 +28,7 @@ namespace OldPhonePad.Tests
         public void OldPhonePad_WithBackspace_RemovesLastCharacter()
         {
             string input = "9996667773322*2#";
-            string expectedOutput = "YOREA"; // Corrected from "WORLDA"
+            string expectedOutput = "YOREA";
             string actualOutput = Program.OldPhonePad(input);
             Assert.AreEqual(expectedOutput, actualOutput);
         }
@@ -60,7 +59,7 @@ namespace OldPhonePad.Tests
         {
             // Original complex string: "46666633 333333999999222222*222#"
             // Traced output: GNEFXC
-            Assert.AreEqual("GNEFXC", Program.OldPhonePad("46666633 333333999999222222*222#")); // Corrected expectation
+            Assert.AreEqual("GNEFXC", Program.OldPhonePad("46666633 333333999999222222*222#"));
 
             // Example from README that is correct:
             Assert.AreEqual("L", Program.OldPhonePad("5556*#"));
@@ -80,14 +79,14 @@ namespace OldPhonePad.Tests
         {
             Assert.AreEqual("AD", Program.OldPhonePad("23#"));
             // Corrected expectation for this input, as 555555 should yield 'L' (6 presses of 5 -> L)
-            Assert.AreEqual("HELO", Program.OldPhonePad("4433555555666#")); // Corrected from "HELLO"
+            Assert.AreEqual("HELO", Program.OldPhonePad("4433555555666#"));
         }
 
         [Test]
         public void OldPhonePad_UnrecognizedCharacters_AreIgnored()
         {
             string input = "444!@#$44 444%^&#";
-            string expectedOutput = "I"; // Corrected from "HI"
+            string expectedOutput = "I";
             string actualOutput = Program.OldPhonePad(input);
             Assert.AreEqual(expectedOutput, actualOutput);
         }
