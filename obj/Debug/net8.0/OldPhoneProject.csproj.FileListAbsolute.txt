@@ -1,0 +1,14 @@
+C:\laragon\www\OldPhoneProject\bin\Debug\net8.0\OldPhoneProject.exe
+C:\laragon\www\OldPhoneProject\bin\Debug\net8.0\OldPhoneProject.deps.json
+C:\laragon\www\OldPhoneProject\bin\Debug\net8.0\OldPhoneProject.runtimeconfig.json
+C:\laragon\www\OldPhoneProject\bin\Debug\net8.0\OldPhoneProject.dll
+C:\laragon\www\OldPhoneProject\bin\Debug\net8.0\OldPhoneProject.pdb
+C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\OldPhoneProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\OldPhoneProject.AssemblyInfoInputs.cache
+C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\OldPhoneProject.AssemblyInfo.cs
+C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\OldPhoneProject.csproj.CoreCompileInputs.cache
+C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\OldPhoneProject.dll
+C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\refint\OldPhoneProject.dll
+C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\OldPhoneProject.pdb
+C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\OldPhoneProject.genruntimeconfig.cache
+C:\laragon\www\OldPhoneProject\obj\Debug\net8.0\ref\OldPhoneProject.dll
