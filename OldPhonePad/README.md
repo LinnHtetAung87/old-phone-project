@@ -52,4 +52,7 @@ OldPhoneProject/
 
 To run the main console application:
 ```bash
-dotnet run
+dotnet test OldPhonePad.Tests/OldPhonePad.Tests.csproj
+
+```bash
+dotnet run --project OldPhonePad/OldPhonePad.csproj
