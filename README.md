@@ -88,7 +88,7 @@ Use * to delete the last character
 Use spaces to finalize a letter before entering another
 
 # 📄 License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT license](https://opensource.org/licenses/MIT).
 
 # ✍️ Author
 Your Name - Linn Htet Aung
