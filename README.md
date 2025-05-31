@@ -21,8 +21,8 @@ Input:
 ```bash
 4433555 555666096667775553#
 ```
-```bash
 Output: 
+```bash
 HELLO WORLD
 ```
 
