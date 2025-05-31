@@ -1,14 +1,14 @@
 # Project Overview
 
-# 📱 Old Phone Pad Decoder - C# Console App
+## 📱 Old Phone Pad Decoder - C# Console App
 This C# console application simulates the behavior of old mobile keypads, converting numeric input into corresponding text messages based on multi-press input logic. It supports basic functionality such as character selection, space handling, and backspacing.
 
-🛠 Features
+## 🛠 Features
 Converts number sequences (e.g., 2, 22, 222) to corresponding letters (A, B, C)
 
 Supports:
 
-# as input terminator
+* as input terminator
 
 * as a backspace/delete
 
@@ -16,7 +16,7 @@ Space ( ) to finalize the current character entry
 
 Handles invalid input cases such as missing end character #
 
-# 🧪 Example
+## 🧪 Example
 Input: 
 ```bash
 4433555 555666096667775553#
@@ -26,7 +26,7 @@ Output:
 HELLO WORLD
 ```
 
-# 🔡 Keypad Mapping
+## 🔡 Keypad Mapping
 Key	Characters
 2	A B C
 3	D E F
@@ -37,7 +37,7 @@ Key	Characters
 8	T U V
 9	W X Y Z
 
-# 📂 Project Structure
+## 📂 Project Structure
 OldPhoneProject/
 ├── OldPhonePadSolution.sln
 ├── OldPhonePad/
