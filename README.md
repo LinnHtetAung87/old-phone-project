@@ -1,25 +1,39 @@
-# Old Phone Pad Translator
+📱 Old Phone Pad Decoder - C# Console App
+This C# console application simulates the behavior of old mobile keypads, converting numeric input into corresponding text messages based on multi-press input logic. It supports basic functionality such as character selection, space handling, and backspacing.
 
-## Project Overview
+🛠 Features
+Converts number sequences (e.g., 2, 22, 222) to corresponding letters (A, B, C)
 
-This project implements a simple C# console application that simulates the text input experience of an old-style mobile phone keypad. Users enter a sequence of key presses, and the application translates these presses into a readable English message.
+Supports:
 
-The application adheres to the following rules:
-* **Numeric Keys (2-9):** Each digit corresponds to a set of letters (e.g., '2' for A, B, C). Repeated presses of the same digit cycle through its assigned letters.
-* **Space (' '):** A space character acts as a delimiter, committing the currently buffered key presses and starting a new character.
-* **Asterisk ('*'):** The asterisk acts as a backspace, deleting the last character from the translated message.
-* **Hash ('#'):** The hash character signifies the end of the input sequence. All input after '#' is ignored.
-* **Other Characters:** Any characters not explicitly defined (digits, space, asterisk, hash) are ignored.
+# as input terminator
 
-## Features
+* as a backspace/delete
 
-* Translates numeric key sequences (2-9) to corresponding letters.
-* Supports repeated key presses for cycling through letters.
-* Handles space character for word separation/character commitment.
-* Implements backspace functionality (`*`).
-* Processes input until a '#' character is encountered.
+Space ( ) to finalize the current character entry
 
-Project Structure
+Handles invalid input cases such as missing end character #
+
+🧪 Example
+Input: 
+```bash
+4433555 555666096667775553#
+Output: 
+```bash
+HELLO WORLD
+
+🔡 Keypad Mapping
+Key	Characters
+2	A B C
+3	D E F
+4	G H I
+5	J K L
+6	M N O
+7	P Q R S
+8	T U V
+9	W X Y Z
+
+📂 Project Structure
 OldPhoneProject/
 ├── OldPhonePadSolution.sln
 ├── OldPhonePad/
@@ -29,7 +43,7 @@ OldPhoneProject/
     ├── OldPhonePad.Tests.csproj
     └── TestCases.cs
 
-## How to Build and Run
+## 🚀 How to Build and Run
 
 ### Prerequisites
 
@@ -56,3 +70,18 @@ dotnet test OldPhonePad.Tests/OldPhonePad.Tests.csproj
 
 ```bash
 dotnet run --project OldPhonePad/OldPhonePad.csproj
+
+3.  **Input your message ending with "#"**
+
+✅ Input Format Rules
+Input must end with a #
+
+Use * to delete the last character
+
+Use spaces to finalize a letter before entering another
+
+📄 License
+This project is open-source and available under the MIT License.
+
+✍️ Author
+Your Name - Linn Htet Aung
